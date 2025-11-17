@@ -1,0 +1,39 @@
+.card-component {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-stats-box {
+    width: 270px;
+    height: 130px;
+    /* background-color: #f8faff; */
+    background-color: #ecf1fc;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+
+    @media (max-width: 720px) {
+        width: 270px;
+        height: 160px;
+        flex: 0 0 calc(48% - 10px);
+    }
+}
+
+.card-stats-box:hover {
+    background-color: #f2f3fc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-box-icon {
+    font-size: 24px;
+}
+
+.card-box-price {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.card-box-label {
+    font-size: 15px;
+    font-weight: 500;
+
+}
