@@ -16,9 +16,6 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path="/" exact element={<Home />} />
-				<Route path="/uploadReel" exact element={<UploadReel />} />
-				<Route path="/concertPage" exact element={<ConcertPage />} />
-				<Route path="/adminPage" exact element={<AddCompetition />} />
 			</Routes>
 			{!shouldHideFooter && <Footer />}
 		</div>
