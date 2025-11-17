@@ -1,0 +1,132 @@
+.bg-live-status {
+    background-color: rgb(16, 160, 16);
+}
+
+.bg-upcoming-status {
+    background-color: #3C83fc;
+}
+
+
+.compitite-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.card-layout {
+    flex: 0 0 calc(49% - 1.9rem);
+    max-width: calc(49% - 1.9rem);
+    /* min-height: 26rem; */
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #e7e7e7;
+    background-color: #f8faff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .card-layout {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.card-layout:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.status-badge {
+    border: none;
+    border-radius: 15px;
+    padding: 3px 8px;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.badge {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 11px;
+    background-color: #E7B008;
+    color: black;
+    font-weight: 500;
+}
+
+.note h3 {
+    font-size: 18px;
+    margin-bottom: 1 !important;
+    font-weight: 700;
+}
+
+.note p {
+    font-size: 12px;
+}
+
+.card-header-logo img {
+    width: 47px;
+    height: 68px;
+    border-radius: 10px;
+}
+
+.prize-pool {
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: #fff;
+    background-image: linear-gradient(to right, #7f45dc 0%, #497ef9 100%)
+}
+
+.prize-pool i {
+    color: #ecff43
+}
+
+.winning-prize {
+    font-size: 23px;
+}
+
+.trophy-icon {
+    font-size: 39px;
+}
+
+.card-participents {
+    font-size: 14px;
+}
+
+.time-left i,
+.card-participents i {
+    color: #7945f5;
+}
+
+.participent-count {
+    font-size: 14px;
+}
+
+.entry-fee {
+    font-size: 14px;
+}
+
+.entry-fee-amount {
+    font-size: 19px;
+    color: #0ec60e;
+}
+
+.join-btn-layout {
+    align-content: center;
+}
+
+.card-join-now-btn {
+    padding: 5px 12px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #4776E6 0%, #7f45dc 100%)
+}
+
+.card-join-now-btn:focus {
+    outline: none;
+}

@@ -1,0 +1,58 @@
+.concert-page {
+    display: flex;
+    justify-content: center;
+}
+
+.category-btn {
+    background-image: linear-gradient(to right, #a03ee2 0%, #7651dd 51%, #4776E6 100%);
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px #bbbaba;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.category-btn:focus {
+    outline: none;
+}
+
+
+.search-icon {
+    position: fixed;
+    top: 6.5rem;
+    right: 1.2rem;
+    z-index: 1000;
+    cursor: pointer;
+    color: rgb(181, 177, 177);
+    font-size: 22px;
+}
+
+.close-search-icon {
+    right: 1.2rem;
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    color: rgb(181, 177, 177);
+    font-size: 22px;
+}
+
+.search-box {
+    margin: 0.5rem 0.5rem 0rem;
+}
+
+.search-post {
+    width: 23rem;
+    border-radius: 15px;
+    padding: 3px 15px;
+    border: 1px solid gray;
+
+    @media (max-width: 720px) {
+        width: 100%;
+    }
+}
+
+.search-post:focus {
+    outline: none;
+}

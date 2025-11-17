@@ -1,0 +1,126 @@
+.upload-reel-container {
+    background-color: rgb(241, 242, 242);
+}
+
+.upload-reel-title h2 {
+    font-size: 27px;
+}
+
+.upload-reel {
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 10px;
+    height: 27rem;
+    width: 100%;
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.upload-video-section-heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.upload-video-section-heading i {
+    background-image: linear-gradient(to right, #af67ea 0%, #4438f0 51%, #15398b 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 18px;
+}
+
+.upload-video-file {
+    border: 1px dashed rgb(158, 157, 157);
+    border-radius: 10px;
+    height: 16rem;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload-file-icon {
+    background-color: #f2f2f2;
+    font-size: 20px;
+    color: rgb(184, 184, 184);
+    padding: 3px 13px;
+    border-radius: 10px;
+}
+
+.drag-drop-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-video-btn {
+    font-size: 15px;
+    background-image: linear-gradient(to right, #a03ee2 0%, #7651dd 51%, #4776E6 100%);
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px #bbbaba;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.choose-video-btn:focus {
+    outline: none;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.upload-video-file-note {
+    font-size: 13px;
+}
+
+.reel-details-title {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.reel-details-input label {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+
+.reel-details-input input,
+.reel-details-input textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 0px 7px;
+    padding: 10px 10px 2px;
+    font-size: 14px;
+}
+
+.reel-details-input input:focus,
+.reel-details-input textarea:focus {
+    border: none;
+    border-bottom: 1px solid rgb(126, 125, 125);
+    outline: none;
+}
+
+.reel-details-note {
+    font-size: 15px;
+}
+
+.submit-reel-btn {
+    background-image: linear-gradient(to right, #a03ee2 0%, #7651dd 51%, #4776E6 100%);
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px #bbbaba;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.submit-reel-btn:focus {
+    outline: none;
+}

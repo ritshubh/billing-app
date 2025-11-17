@@ -1,0 +1,72 @@
+.active-comp-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.active-comp-card {
+    width: 100%;
+    max-width: 22rem;
+    height: 22rem;
+    border: 1px solid #dddddd;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details-title {
+    text-align: center !important;
+    background: #9660f2;
+    padding-top: 6px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-details span {
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+
+}
+
+.card-details text {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.active-status div {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 2px 8px;
+    font-size: 11px;
+    background-color: rgb(16, 160, 16);
+    color: #fff;
+    font-weight: 700;
+    margin: 5px 0px;
+    letter-spacing: 3px;
+}
+
+.pay-join-competition {
+    background-image: linear-gradient(to right, #a03ee2 0%, #7651dd 51%, #4776E6 100%);
+    /* background-color: rgb(74, 232, 74); */
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px #bbbaba;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.pay-join-competition:focus {
+    outline: none;
+}
+
+.join-note {
+    color: rgb(176, 176, 176);
+}
